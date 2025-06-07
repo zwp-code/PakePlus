@@ -677,67 +677,37 @@
       };
     }
 
-    function copy (text)
-    {
-      let input = document.createElement('input');
-      input.value = text;
-      document.body.appendChild(input);
-      input.select();
-      document.execCommand('copy');
-      document.body.removeChild(input);
-    }
-
     // 处理复制
     function handleCopy(e) {
       const targetId = e.currentTarget.getAttribute('data-target');
       const textToCopy = document.getElementById(targetId).textContent;
-
-      copy(textToCopy);
-      // 显示复制成功提示
-      copyToast.style.opacity = '1';
-      window.parent.postMessage(textToCopy,'*');
       
-      // 3秒后隐藏提示
-      setTimeout(() => {
-        copyToast.style.opacity = '0';
-      }, 3000);
-      
-      // navigator.clipboard.writeText(textToCopy).then(() => {
-      //   // 显示复制成功提示
-      //   copyToast.style.opacity = '1';
-      //   window.parent.postMessage(textToCopy,'*');
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        // 显示复制成功提示
+        copyToast.style.opacity = '1';
+        window.parent.postMessage(textToCopy,'*');
         
-      //   // 3秒后隐藏提示
-      //   setTimeout(() => {
-      //     copyToast.style.opacity = '0';
-      //   }, 3000);
-      // });
+        // 3秒后隐藏提示
+        setTimeout(() => {
+          copyToast.style.opacity = '0';
+        }, 3000);
+      });
     }
 
     function handleCopyColor (e) {
         if (isPanning) return;
       const textToCopy = colorPreview.style.backgroundColor;
-
-      copy(textToCopy);
-      // 显示复制成功提示
-      copyToast.style.opacity = '1';
-      window.parent.postMessage(hexValue.textContent,'*');
       
-      // 3秒后隐藏提示
-      setTimeout(() => {
-        copyToast.style.opacity = '0';
-      }, 3000);
-      
-      // navigator.clipboard.writeText(textToCopy).then(() => {
-      //   // 显示复制成功提示
-      //   copyToast.style.opacity = '1';
-      //   window.parent.postMessage(hexValue.textContent,'*');
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        // 显示复制成功提示
+        copyToast.style.opacity = '1';
+        window.parent.postMessage(hexValue.textContent,'*');
         
-      //   // 3秒后隐藏提示
-      //   setTimeout(() => {
-      //     copyToast.style.opacity = '0';
-      //   }, 3000);
-      // });
+        // 3秒后隐藏提示
+        setTimeout(() => {
+          copyToast.style.opacity = '0';
+        }, 3000);
+      });
     }
 
     // 处理缩放
