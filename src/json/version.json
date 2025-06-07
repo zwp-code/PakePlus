@@ -9,13 +9,13 @@
         "label":"专业版",
         "type":"primary",
         "count":"50",
-        "fun":"backup,batchBackup,gifExport,beitu-20,borderMarkCustomLogo,autoTheme,pinjieCustomGrid,pinjieCount-12,colorKeyOptions,projectGroup-30,pindouReplace,pindouSaveColor,pindouDraw,AIPixelDraw,customPindouImport"
+        "fun":"backup,batchBackup,gifExport,beitu-20,borderMarkCustomLogo,autoTheme,pinjieCustomGrid,pinjieCount-12,colorKeyOptions,projectGroup-30,pindouReplace,pindouSaveColor,AIPixelDraw"
         
     },
     {
         "label":"高级版",
         "type":"danger",
         "count":"100",
-        "fun":"backup,batchBackup,gifExport,autoTheme,projectRecycle,beitu-50,autoBackup,excelExport,colorKeyOptions,customPindouExport,borderMarkCustomLogo,pinjieCustomGrid,pinjieCount-24,projectGroup-50,pindouReplace,pindouSaveColor,pindouBatchUpdateBlock,pindouExportExcel,pindouDraw,AIPixelDraw,customPindouImport"
+        "fun":"backup,batchBackup,gifExport,autoTheme,projectRecycle,beitu-50,autoBackup,excelExport,colorKeyOptions,customPindouExport,borderMarkCustomLogo,pinjieCustomGrid,pinjieCount-24,projectGroup-50,pindouReplace,pindouSaveColor,pindouBatchUpdateBlock,pindouExportExcel,AIPixelDraw"
     }
 ]
