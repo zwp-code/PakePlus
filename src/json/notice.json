@@ -1,0 +1,26 @@
+[
+    {
+        "id":"2039116666",
+        "title":"公告",
+        "content":"服务器存在异常，正在紧急修复中！\n<span style='color:green'>作者QQ：2152456816（Java）",
+        "isForceUpdate":"1"
+    },
+    {
+        "id":"1039934554002",
+        "title":"2024/12/06 UPDATE",
+        "content":"1.Batch export of new projects \n2.Batch import of new projects",
+        "isForceUpdate":"0"
+    },
+    {
+        "id":"client001666",
+        "title":"公告",
+        "content":"客户端正在维护中！\n<span style='color:green'>作者QQ：2152456816（Java）</span>",
+        "isForceUpdate":"1"
+    },
+    {
+        "id":"client001",
+        "title":"NOTICE",
+        "content":"The client is online! \nThe client is free to use, please do not believe it if there is a charging situation; If you encounter any problems during use, please contact the author promptly.\n<span style='color:green'>Author Email：zwpyyds007@gmail.com/span>",
+        "isForceUpdate":"0"
+    }
+]
